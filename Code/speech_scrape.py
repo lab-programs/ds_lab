@@ -68,15 +68,19 @@ else:
 	my_links = open('output.txt').readlines()
 	my_links.reverse()
 filename = open("filename.txt").readlines()
+mydict = {}
+f =  open("data.json","w+")
 for i in range(len(filename)):
 	filename[i] = filename[i].replace('\n','')
 for i in tqdm(range(0,len(my_links)-1)):
 	my_text = cleaned(my_links[i])
-	file_name = filename[i]+'.txt'
-	f = open(file_name, "w", encoding = 'utf-8')
-	f.write(my_text)
-	f.close()
+	#file_name = filename[i]+'.txt'
+	#f = open(file_name, "w", encoding = 'utf-8')
+	#f.write(my_text)
+	#f.close()
+	mydict[filename[i]] = my_text
 
 
+json.dump(mydict, f)
 
 
