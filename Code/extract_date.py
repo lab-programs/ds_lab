@@ -28,4 +28,5 @@ with open("Date.txt", "w") as txt_file:
 		txt_file.write("".join(line) + "\n")
 '''
 
+#print content
 #print(content)
