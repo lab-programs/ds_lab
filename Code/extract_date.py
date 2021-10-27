@@ -1,10 +1,10 @@
 from selenium import webdriver
+import re
+import os.path 
 import time
 from bs4 import BeautifulSoup, SoupStrainer
 from tqdm import tqdm
 import requests
-import re
-import os.path 
 from selenium.webdriver.firefox.options import Options
 
 options = Options()
