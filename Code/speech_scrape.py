@@ -60,7 +60,7 @@ if(os.path.exists('output.txt') == False):
 		if link.has_attr('href'):
 			if 'mann-ki-baat' in link['href']:
 				my_links.append(link['href'])
-
+	#opening output.txt
 	with open("output.txt", "w") as txt_file:
 	    for line in my_links:
 	        txt_file.write("".join(line) + "\n")
