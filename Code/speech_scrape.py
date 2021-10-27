@@ -18,7 +18,7 @@ def cleaned(url):
 	if end_idx == -1:
 		end_idx = content.find('</div><style>.says{display:none;}</style>')
 	#print(end_idx)
-	#print(end_idx)
+	
 
 	MyText = content[first_idx:end_idx]
 
