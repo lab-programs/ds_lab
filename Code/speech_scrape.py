@@ -66,7 +66,7 @@ if(os.path.exists('output.txt') == False):
 	        txt_file.write("".join(line) + "\n")
 else:
 	my_links = open('output.txt').readlines()
-	my_links.reverse()
+	#my_links.reverse()
 filename = open("filename.txt").readlines()
 mydict = {}
 f =  open("data.json","w+")
