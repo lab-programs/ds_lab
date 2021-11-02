@@ -1,3 +1,7 @@
 ## Readme
-scrap_speech -> extract all of english transcriptions of Mann ki baat from pmgovindia website <br>
-23/10 - extraction of 3 episodes are failing, need to fix
+Scripts Folder: \n
+Contains all Python scripts for extracting data
+
+Notebooks Folder: \n
+Contains jupyter notebook for each part of data analysis
+
