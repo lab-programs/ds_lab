@@ -5,8 +5,7 @@ from nltk.corpus import stopwords
 from nltk.tokenize import word_tokenize
 
 # Dictionary of English Contractions
-contractions_dict = 
-{ "ain't": "are not","'s":" is","aren't": "are not",
+contractions_dict = { "ain't": "are not","'s":" is","aren't": "are not",
 "can't": "cannot","can't've": "cannot have",
 "'cause": "because","could've": "could have","couldn't": "could not",
 "couldn't've": "could not have", "didn't": "did not","doesn't": "does not",
