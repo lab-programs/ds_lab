@@ -68,6 +68,7 @@ def rem_stop(text):
 
 def get_words(text):
     new_text = ""
+    text = text.encode("ascii", "ignore").decode()
     words = re.compile('\w+').findall(text)
     for word in words:
         new_text = new_text + word + " "
