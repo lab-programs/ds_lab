@@ -15,3 +15,13 @@ Link: http://www.iaeng.org/publication/IMECS2019/IMECS2019_pp12-16.pdf
 > Yin Zhang, Rong Jin, Zhi-Hua Zhou
 
 Link: https://link.springer.com/content/pdf/10.1007/s13042-010-0001-0.pdf
+
+### 4. Analysis of Speech acts in political speeches, 2017
+> Ardita Dylgjeri
+
+Link: https://www.oapub.org/soc/index.php/EJSSS/article/view/66
+
+### 5. Automatic Extraction of Keywords in Political Speeches, 2020
+> Iryna Dilai and Marianna Dilai
+
+Link: https://ieeexplore.ieee.org/document/9322011
