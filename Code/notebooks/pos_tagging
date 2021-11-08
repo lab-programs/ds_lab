@@ -15,5 +15,5 @@ nltk.download('universal_tagset')
 # reading the Treebank tagged sentences
 nltk_data = list(nltk.corpus.treebank.tagged_sents(tagset='universal'))
 
-#print the first 2 sentences along with tags
+#print the first two sentences along with tags
 print(nltk_data[:2])
