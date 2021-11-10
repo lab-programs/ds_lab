@@ -4,6 +4,7 @@ import numpy as np
 import pandas as pd
 import random
 from sklearn.model_selection import train_test_split
+from textblob import TextBlob
 import pprint, time
 
 #download the treebank corpus from nltk
@@ -17,3 +18,14 @@ nltk_data = list(nltk.corpus.treebank.tagged_sents(tagset='universal'))
 
 #print the first two sentences along with tags
 print(nltk_data[:2])
+
+
+
+
+
+with open("mkb.csv") as f:
+    s = f.read()
+
+blob = TextBlob(s)
+fs=open("/content/output.txt")
+fs.write(blob.tags)
