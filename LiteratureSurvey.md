@@ -5,7 +5,6 @@
 
 Link: https://www.jmlr.org/papers/volume3/blei03a/blei03a.pdf?TB_iframe=true&width=370.8&height=658.8
 
-
 ### 2. Twitter Sentiment Analysis Using Natural Language Toolkit and VADER Sentiment, 2019
 > Shihab Elbagir and Jing Yang
 
@@ -25,3 +24,8 @@ Link: https://www.oapub.org/soc/index.php/EJSSS/article/view/66
 > Iryna Dilai and Marianna Dilai
 
 Link: https://ieeexplore.ieee.org/document/9322011
+
+### 6. Subjectivity and sentiment analysis: An overview of the current state of the area and envisaged developments
+> Andrés Montoyo, Patricio Martínez-Barco, Alexandra Balahur
+
+Link: https://www.sciencedirect.com/science/article/abs/pii/S0167923612001339
